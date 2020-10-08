@@ -1,6 +1,9 @@
 package spring.aop.after;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
 
 import spring.aop.after.app.AppConfiguration;
 import spring.aop.after.dao.UserDAO;
